@@ -10,7 +10,7 @@ Documentation of our private API are found below.
 * /api/v1/ip/ - Returns IP address
 
 ### Authentication
-Our private API is only accessible to those who purchase a __developer__ plan at https://hackcheck.io
+Our private API is only accessible to those who purchase a _developer_ plan at https://hackcheck.io
 Once you purchase a developer plan you can navigate to https://hackcheck.io/profile, your API key will be displayed on the page.
 To authorize yourself on our private API you need to use the `key` parameter as seen below.
 
