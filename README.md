@@ -1,5 +1,5 @@
 # Hackcheck Private API docs | Version 1.0
-hackcheck.io - discord.gg/hackcheck - t.me/hackcheck
+https://hackcheck.io - https://discord.gg/hackcheck - https://t.me/hackcheck
 
 Documentation of our private API are found below.
 
