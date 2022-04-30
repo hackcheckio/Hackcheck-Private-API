@@ -1,4 +1,4 @@
-# Hackcheck Private API docs | Version 1.0
+# Hackcheck Private API Docs | Version 1.0
 https://hackcheck.io - https://discord.gg/hackcheck - https://t.me/hackcheck
 
 Documentation of our private API are found below.
