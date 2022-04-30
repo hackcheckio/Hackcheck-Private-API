@@ -52,7 +52,7 @@ Our API consists of two response bodies.
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
 
-### Request Example
+#### Request Example
 ```
 https://hackcheck.io/api/v1/lookup/?key=00000000-0000-0000-0000-000000000000&email=example@gmail.com
 ```
