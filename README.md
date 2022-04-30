@@ -14,13 +14,13 @@ Our private API is only accessible to those who purchase a _developer_ plan at h
 Once you purchase a developer plan you can navigate to https://hackcheck.io/profile, your API key will be displayed on the page.
 In order to authorize yourself on our private API you need to use the `key` parameter as seen below.
 
-`/api/v1/lookup/?key=0000-000-000-00000000&email=example@gmail.com`
+`/api/v1/lookup/?key=0000-000-000-00000000`
 
 ### /lookup
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
 #### Queires
-Hackcheck currently offers six queires
+Hackcheck currently offers six queires.
 - Email Address `email`
 - Username      `username`
 - Password      `password`
@@ -28,8 +28,8 @@ Hackcheck currently offers six queires
 - Phone Number  `phone`
 - Domain Name   `domain`
 
-Keep in mind that some plans cannot use curtain queires.
-There are also security measures in place to prevent these queires being abused.
+Keep in mind that some plans cannot use curtain queries.
+There are also security measures in place to prevent these queries from being being abused.
 
 ### Response Handling
 Our API consists of two response bodies
