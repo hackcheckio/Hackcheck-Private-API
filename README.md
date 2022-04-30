@@ -7,7 +7,6 @@ Documentation of our private API are found below.
 ### Endpoints
 **Base URL:** hackcheck.io
 * /api/v1/lookup/ - Perform qeury searches 
-* /api/v1/ip/ - Returns IP address
 
 ### Authentication
 Our private API is only accessible to those who purchase a _developer_ plan at https://hackcheck.io
