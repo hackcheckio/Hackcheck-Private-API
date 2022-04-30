@@ -26,6 +26,7 @@ Hackcheck currently offers six queires
 - IP Address    `ip`
 - Phone Number  `phone`
 - Domain Name   `domain`
+
 Keep in mind that some plans cannot use curtain queires.
 There are also security measures in place to prevent these queires being abused.
 
