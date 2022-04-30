@@ -19,7 +19,7 @@ In order to authorize yourself on our private API you need to use the `key` para
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
 #### Queires
-Hackcheck currently offers six queires.
+Hackcheck currently offers six  queires.
 - Email Address `email`
 - Username      `username`
 - Password      `password`
