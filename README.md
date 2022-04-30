@@ -28,11 +28,10 @@ Hackcheck currently offers six queires.
 - Domain Name   `domain`
 
 Keep in mind that some plans cannot use all queries.
-
 There are also security measures in place to prevent these queries from being being abused.
 
 ### Response Handling
-Our API consists of two response bodies
+Our API consists of two response bodies.
 #### Valid Response
 ```
 {
