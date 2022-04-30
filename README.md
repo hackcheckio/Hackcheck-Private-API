@@ -13,6 +13,7 @@ Documentation of our private API are found below.
 Our private API is only accessible to those who purchase a *developer* plan at https://hackcheck.io
 Once you purchase a developer plan you can navigate to https://hackcheck.io/profile, your API key will be displayed on the page.
 To authorize yourself on our private API you need to use the `key` parameter as seen below.
+
 `/api/v1/lookup/?key=0000-000-000-00000000&email=example@gmail.com`
 
 ### /lookup
