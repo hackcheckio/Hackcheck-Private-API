@@ -90,3 +90,5 @@ https://hackcheck.io/api/v1/lookup/?key=0000-000-000-00000000&email=example@gmai
     "success": true
 }
 ```
+
+More features are coming soon, stay updated!
