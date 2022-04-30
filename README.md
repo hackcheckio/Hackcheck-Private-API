@@ -27,7 +27,7 @@ Hackcheck currently offers six queires.
 - Phone Number  `phone`
 - Domain Name   `domain`
 
-Keep in mind that some plans cannot use curtain queries.
+Keep in mind that some plans cannot use all queries.
 There are also security measures in place to prevent these queries from being being abused.
 
 ### Response Handling
