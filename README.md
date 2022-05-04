@@ -1,4 +1,4 @@
-# Hackcheck Private API Docs | Version 1.0
+# Hackcheck Private API Docs | Version 2.0
 https://hackcheck.io - https://discord.gg/hackcheck - https://t.me/hackcheck
 
 Documentation of our private API are found below.
@@ -10,10 +10,8 @@ Documentation of our private API are found below.
 
 ### Authentication
 Our private API is only accessible to those who purchase a _developer_ plan at https://hackcheck.io
-Once you purchase a developer plan you can navigate to https://hackcheck.io/profile, your API key will be displayed on the page.
-In order to authorize yourself on our private API you need to use the `key` parameter as seen below.
-
-`/api/v1/lookup/?key=00000000-0000-0000-0000-000000000000`
+Our API authentication is handled by the requesting IP address. Once you've purchase a developer plan you can navigate to https://hackcheck.io/profile. 
+All you need to do is add your IP address in the authorized IP address section of /profile and you are authorized to use the private API on that IP address.
 
 ### /lookup
 This endpoint is used to perform various queries against our database to get the information you're looking for.
@@ -54,7 +52,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 #### Request Example
 ```
-https://hackcheck.io/api/v1/lookup/?key=00000000-0000-0000-0000-000000000000&email=example@gmail.com
+https://hackcheck.io/api/v1/lookup/?email=example@gmail.com
 ```
 #### Response Example
 ```
