@@ -6,7 +6,7 @@ Documentation of our private API are found below.
 
 ### Endpoints
 **Base URL:** hackcheck.io
-* /api/v1/lookup/ - Perform qeury searches 
+* /api/v2/lookup/ - Perform qeury searches 
 
 ### Authentication
 Our private API is only accessible to those who purchase a _developer_ plan at https://hackcheck.io
@@ -52,7 +52,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 #### Request Example
 ```
-https://hackcheck.io/api/v1/lookup/?email=example@gmail.com
+https://hackcheck.io/api/v2/lookup/?email=example@gmail.com
 ```
 #### Response Example
 ```
