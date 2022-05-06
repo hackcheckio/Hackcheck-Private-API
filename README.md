@@ -5,7 +5,7 @@ Documentation of our private API are found below.
 
 
 ### Endpoints
-**Base URL:** dev.hackcheck.io
+**Base URL:** api.hackcheck.io
 * /api/v2/lookup/ - Perform query searches 
 
 ### Authentication
