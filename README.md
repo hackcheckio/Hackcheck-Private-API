@@ -49,6 +49,13 @@ Our API consists of two response bodies.
     "success": false
 }
 ```
+#### Breakdown
+`found` - The 'found' element is a INT that represents the number of results that were found for your query.
+`results` - The 'results' element is a Array that contains all of the results found.
+`elapsed` - The 'elapsed' element is a String that represents the milliseconds it took our server to return results for your query.
+`success` - The 'success' element is a Boolean that represents if the API request was successful or failed
+`message` - The 'message' element is a String that contains a message, this element is only returned if success is false.
+
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
 
