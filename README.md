@@ -1,6 +1,6 @@
 # Hackcheck Private API Docs | Version 2.0
 [hackcheck.io](https://hackcheck.io){:target="\_blank"} - [discord.gg/hackcheck](https://discord.gg/hackcheck) - [t.me/hackcheck](https://t.me/hackcheck)
-
+<a href="https://hackcheck.io" target="_blank">Hello, world!</a>
 Documentation of our private API are found below.
 
 
