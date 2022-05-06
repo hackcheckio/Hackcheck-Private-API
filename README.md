@@ -5,15 +5,17 @@ Documentation of our private API are found below.
 
 
 ### Endpoints
-**Base URL:** hackcheck.io
+**Base URL:** dev.hackcheck.io
 * /api/v2/lookup/ - Perform qeury searches 
 
 ### Authentication
 Our private API is only accessible to those who purchase a _developer_ plan at https://hackcheck.io
-Our API authentication is handled by the requesting IP address. Once you've purchase a developer plan you can navigate to https://hackcheck.io/profile. 
-All you need to do is add your IP address in the authorized IP address section of /profile and you are authorized to use the private API on that IP address.
+To authenticate a request on our API you need two things
+- API key
+- whitelisted IP address
+Once you purchase a developer plan you can navigate to https://hackcheck.io/profile, there you will be able to copy your `API key` and authorize whichever IP address you want.
 
-### /lookup
+### /api/v2/lookup/
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
 #### Queires
@@ -36,7 +38,7 @@ Our API consists of two response bodies.
 {
     "found": 0,
     "results": [],
-    "elapsed": "10ms",
+    "elapsed": "1ms",
     "success": true
 }
 ```
@@ -52,7 +54,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 #### Request Example
 ```
-https://hackcheck.io/api/v2/lookup/?email=example@gmail.com
+https://dev.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&email=example@gmail.com
 ```
 #### Response Example
 ```
@@ -84,7 +86,7 @@ https://hackcheck.io/api/v2/lookup/?email=example@gmail.com
             }
         }
     ],
-    "elapsed": "106ms",
+    "elapsed": "10ms",
     "success": true
 }
 ```
