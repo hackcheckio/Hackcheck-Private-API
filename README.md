@@ -14,7 +14,7 @@ To authenticate a request on our API you need two things
 - API key
 - whitelisted IP address
 
-[go](http://stackoverflow.com){:target="_blank"}
+[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
 Once you purchase a developer plan you can navigate to https://hackcheck.io/profile{:target="_blank"}, there you will be able to copy your `API key` and authorize whichever IP address you want.
 
 ### /api/v2/lookup/
