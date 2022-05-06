@@ -1,5 +1,5 @@
 # Hackcheck Private API Docs | Version 2.0
-https://hackcheck.io - https://discord.gg/hackcheck - https://t.me/hackcheck
+[hackcheck.io](https://hackcheck.io) - [discord.gg/hackcheck](https://discord.gg/hackcheck) - [t.me/hackcheck](https://t.me/hackcheck)
 
 Documentation of our private API are found below.
 
@@ -9,13 +9,12 @@ Documentation of our private API are found below.
 * /api/v2/lookup/ - Perform query searches 
 
 ### Authentication
-Our private API is only accessible to those who purchase a _developer_ plan at https://hackcheck.io
+Our private API is only accessible to those who purchase a _developer_ plan at [hackcheck.io](https://hackcheck.io)
 To authenticate a request on our API you need two things
 - API key
 - whitelisted IP address
 
-[go](http://stackoverflow.com){:target="_blank" rel="noopener"}
-Once you purchase a developer plan you can navigate to https://hackcheck.io/profile{:target="_blank"}, there you will be able to copy your `API key` and authorize whichever IP address you want.
+Once you purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you want.
 
 ### /api/v2/lookup/
 This endpoint is used to perform various queries against our database to get the information you're looking for.
