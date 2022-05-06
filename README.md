@@ -13,6 +13,7 @@ Our private API is only accessible to those who purchase a _developer_ plan at h
 To authenticate a request on our API you need two things
 - API key
 - whitelisted IP address
+
 Once you purchase a developer plan you can navigate to https://hackcheck.io/profile, there you will be able to copy your `API key` and authorize whichever IP address you want.
 
 ### /api/v2/lookup/
