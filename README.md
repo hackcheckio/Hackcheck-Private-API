@@ -18,6 +18,8 @@ Once you purchase a developer plan you can navigate to https://hackcheck.io/prof
 ### /api/v2/lookup/
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
+We currently limit responses to a maximum of 10,000 results, this is to ensure request time is reasonable and to prevent abuse.
+
 #### Queires
 Hackcheck currently offers six  queires.
 - Email Address `email`
@@ -28,8 +30,6 @@ Hackcheck currently offers six  queires.
 - Domain Name   `domain`
 
 Keep in mind that some plans cannot use all queries. 
-
-There are also security measures in place to prevent these queries from being being abused.
 
 ### Response Handling
 Our API consists of two response bodies.
@@ -49,6 +49,8 @@ Our API consists of two response bodies.
     "success": false
 }
 ```
+These two body structures make it easy for developers to parse our responses with efficiency and ease. 
+
 #### Breakdown
 `found` - The 'found' element is a INT that represents the number of results that were found for your query.
 
@@ -59,9 +61,6 @@ Our API consists of two response bodies.
 `success` - The 'success' element is a Boolean that represents if the API request was successful or failed
 
 `message` - The 'message' element is a String that contains a message, this element is only returned if success is false.
-
-These two body structures make it easy for developers to parse our responses with efficiency and ease. 
-
 
 #### Request Example
 ```
