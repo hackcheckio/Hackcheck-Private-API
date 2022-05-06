@@ -65,7 +65,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 #### Request Example
 ```
-https://dev.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&email=example@gmail.com
+https://api.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&email=example@gmail.com
 ```
 #### Response Example
 ```
