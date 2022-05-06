@@ -1,6 +1,6 @@
 # Hackcheck Private API Docs | Version 2.0
-[hackcheck.io](https://hackcheck.io){:target="\_blank"} - [discord.gg/hackcheck](https://discord.gg/hackcheck) - [t.me/hackcheck](https://t.me/hackcheck)
-<a href="https://hackcheck.io" target="_blank">Hello, world!</a>
+[hackcheck.io](https://hackcheck.io) - [discord.gg/hackcheck](https://discord.gg/hackcheck) - [t.me/hackcheck](https://t.me/hackcheck)
+
 Documentation of our private API are found below.
 
 
@@ -53,15 +53,15 @@ Our API consists of two response bodies.
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
 #### Breakdown
-`found` - The 'found' element is a INT that represents the number of results that were found for your query.
+`found` - A INT that represents the number of results that were found for your query.
 
-`results` - The 'results' element is a Array that contains all of the results found.
+`results` - A Array that contains all of the results found.
 
-`elapsed` - The 'elapsed' element is a String that represents the milliseconds it took our server to return results for your query.
+`elapsed` - A String that represents the milliseconds it took our server to return results for your query.
 
-`success` - The 'success' element is a Boolean that represents if the API request was successful or failed
+`success` - A Boolean that represents if the API request was successful or failed
 
-`message` - The 'message' element is a String that contains a message, this element is only returned if success is false.
+`message` - A String that contains a message, this element is only returned if success is false.
 
 #### Request Example
 ```
