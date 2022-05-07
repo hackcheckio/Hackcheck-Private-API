@@ -15,7 +15,7 @@ To authenticate a request on our API you need two things
 - whitelisted IP address
 
 Once you purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you want.
-
+---
 ### /api/v2/lookup/
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
@@ -101,5 +101,15 @@ https://api.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&email=example
     "success": true
 }
 ```
+---
+### Rate Limits
+
+A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. Different developer plans get different rate limits, some better than others. We rate limit by API key.
+
+If you want to have insight on your current rate limit you can use our two custom headers.
+
+```hc-allowed-rate``` - This number represents the requests per second you are allowed to send using the current API key.
+
+```hc-current-rate``` - This number represents the current requests per second you are sending.
 
 More features are coming soon, stay updated!
