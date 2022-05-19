@@ -120,7 +120,7 @@ If you want to use regex you need to enable the `regex` parameter like as follow
    
 `Query:` example*@gmail.com
 
-`Response:` example1234@gmail.com, exampletexts@gmail.com, examplesalad@gmail.com, etc
+`Response:` example@gmail.com, exampletexts@gmail.com, examplesalad@gmail.com, etc
 
 
 `Query:` example_@gmail.com
