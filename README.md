@@ -99,7 +99,7 @@ GET https://api.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&email=exa
             }
         }
     ],
-    "elapsed": "10ms",
+    "elapsed": "5ms",
     "success": true
 }
 ```
