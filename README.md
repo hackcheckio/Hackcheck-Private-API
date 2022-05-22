@@ -6,7 +6,7 @@ Documentation of our private API are found below.
 
 ### Endpoints
 **Base URL:** api.hackcheck.io
-* /api/v2/lookup/ - Perform query searches 
+* /api/v2/lookup - Perform query searches 
 
 ### Authentication
 Our private API is only accessible to those who purchase a _developer_ plan at [hackcheck.io](https://hackcheck.io)
@@ -18,7 +18,7 @@ To authenticate a request on our API you need two things
 Once you purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you want.
 
 ---
-### /api/v2/lookup/
+### /api/v2/lookup
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
 We currently limit responses to a maximum of 10,000 results, this is to ensure request time is reasonable and to prevent abuse.
@@ -67,7 +67,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 #### Request Example
 ```
-GET https://api.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&email=example@gmail.com
+GET https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&email=example@gmail.com
 ```
 #### Response Example
 ```
@@ -114,7 +114,7 @@ Our API provides Regex support to help you find what you're looking for easier.
 
 If you want to use regex you need to enable the `regex` parameter like as follows.
 
-`https://api.hackcheck.io/api/v2/lookup/?key=0000000000000000000000&regex=true&email=example_@gmail.com`
+`https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&regex=true&email=example_@gmail.com`
 
 #### Examples
    
