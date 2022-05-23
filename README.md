@@ -21,7 +21,7 @@ Once you purchase a developer plan you can navigate to your [profile](https://ha
 ### /api/v2/lookup
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
-We currently limit responses to a maximum of 10,000 results, this is to ensure request time is reasonable and to prevent abuse.
+We currently limit responses to a maximum of 15,000 results, this is to ensure request time is reasonable and to prevent abuse.
 
 #### Queires
 Hackcheck currently offers six  queires.
