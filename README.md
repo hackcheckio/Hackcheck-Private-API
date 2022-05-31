@@ -1,7 +1,7 @@
 # Hackcheck Private API Docs | Version 2.0
 [hackcheck.io](https://hackcheck.io) - [discord.gg/hackcheck](https://discord.gg/hackcheck) - [t.me/hackcheck](https://t.me/hackcheck)
 
-Documentation of our private API are found below.
+Documentation of our private API is found below.
 
 
 ### Endpoints
@@ -10,12 +10,13 @@ Documentation of our private API are found below.
 
 ### Authentication
 Our private API is only accessible to those who purchase a _developer_ plan at [hackcheck.io](https://hackcheck.io)
-To authenticate a request on our API you need two things
-- API key
-- whitelisted IP address
+
+To authenticate a request on our API you need the following
+- API Key
+- Whitelisted IP Address
 
 
-Once you purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you want.
+Once you've purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you'd like.
 
 ---
 ### /api/v2/lookup
@@ -32,7 +33,7 @@ Hackcheck currently offers six  queires.
 - Phone Number  `phone`
 - Domain Name   `domain`
 
-Keep in mind that some plans cannot use all queries. 
+Keep in mind that some plans cannot use all of these queries. 
 
 ### Response Handling
 Our API consists of two response bodies.
@@ -55,15 +56,15 @@ Our API consists of two response bodies.
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
 #### Breakdown
-`found` - A INT that represents the number of results that were found for your query.
+`found` - INT that represents the number of results that were found for your query.
 
-`results` - A Array that contains all of the results found.
+`results` - Array that contains all of the results found.
 
-`elapsed` - A String that represents the milliseconds it took our server to return results for your query.
+`elapsed` - String that represents the milliseconds it took our server to return results for your query.
 
-`success` - A Boolean that represents if the API request was successful or failed
+`success` - Boolean that represents if the API request was successful or failed
 
-`message` - A String that contains a message, this element is only returned if success is false.
+`message` - String that contains a message, this element is only returned if success is false.
 
 #### Request Example
 ```
@@ -106,13 +107,13 @@ GET https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&email=exam
 ---
 ### Regex
 
-Our API provides Regex support to help you find what you're looking for easier.
+Our API provides Regex support to help you find what you're looking.
 
 `*` - Represents zero or more characters.
 
 `_` - Represents a single character.
 
-If you want to use regex you need to enable the `regex` parameter like as follows.
+If you want to use regex you need to enable the `regex` parameter like as seen below.
 
 `https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&regex=true&email=example_@gmail.com`
 
@@ -130,12 +131,12 @@ If you want to use regex you need to enable the `regex` parameter like as follow
 ---
 ### Rate Limits
 
-A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. Different developer plans get different rate limits, some better than others. We rate limit by API key.
+A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. The rate limit you receive depends on the plan you purchase.
 
-If you want to have insight on your current rate limit you can use our two custom headers.
+If you want to have insight on your current rate limit you can use the following headers.
 
 ```hc-allowed-rate``` - This number represents the requests per second you are allowed to send using the current API key.
 
-```hc-current-rate``` - This number represents the current requests per second you are sending.
+```hc-current-rate``` - This number represents the numbers of requests you've send in the last second.
 
 More features are coming soon, stay updated!
