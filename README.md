@@ -15,6 +15,8 @@ To authenticate a request on our API you need the following
 - API Key
 - Whitelisted IP Address
 
+If you are having trouble authenticating your IP address, visit [here](https://api.hackcheck.io/api/v2/ip) and make sure the IP you are entering on your [profile](https://hackcheck.io/profile) matches the IP you are shown.
+
 
 Once you've purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you'd like.
 
