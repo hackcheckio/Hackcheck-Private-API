@@ -141,4 +141,5 @@ If you want to have insight on your current rate limit you can use the following
 
 ```hc-current-rate``` - This number represents the numbers of requests you've send in the last second.
 
-More features are coming soon, stay updated!
+
+# More features are coming soon, stay updated!
