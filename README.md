@@ -64,7 +64,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 `elapsed` - String that represents the milliseconds it took our server to return results for your query.
 
-`success` - Boolean that represents if the API request was successful or failed
+`success` - Boolean that represents if the API request was successful or if it failed.
 
 `message` - String that contains a message, this element is only returned if success is false.
 
