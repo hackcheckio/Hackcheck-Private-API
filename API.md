@@ -109,7 +109,6 @@ Our API provides Regex support to help you find what you're looking.
 `_` - Represents a single character.
 
 If you want to use regex you need to enable the `regex` parameter like as seen below.
-
 `https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&regex=true&email=example_@gmail.com`
 
 #### Examples
