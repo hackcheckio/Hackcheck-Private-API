@@ -2,7 +2,7 @@
 **Base URL:** api.hackcheck.io
 * /api/v2/lookup - Perform query searches 
 
-### requirements
+### Requirements
 Anybody who purchase a plan is allowed to use our on-site search functionality, however, only those who purchase a _developer_ plan have access to use our private API.
 
 ### Authentication
