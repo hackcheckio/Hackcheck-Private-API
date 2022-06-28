@@ -63,9 +63,8 @@ These two body structures make it easy for developers to parse our responses wit
 `message` - String that contains a message, this element is only returned if success is false.
 
 #### Request Example
-```
-GET https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&email=example@gmail.com
-```
+`GET https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&email=example@gmail.com`
+
 #### Response Example
 ```
 {
