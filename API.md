@@ -1,9 +1,3 @@
-# Hackcheck Private API Docs | Version 2.0
-[hackcheck.io](https://hackcheck.io) - [discord.gg/hackcheck](https://discord.gg/hackcheck) - [t.me/hackcheck](https://t.me/hackcheck)
-
-Documentation of our private API is found below.
-
-
 ### Endpoints
 **Base URL:** api.hackcheck.io
 * /api/v2/lookup - Perform query searches 
