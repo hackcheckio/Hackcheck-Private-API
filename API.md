@@ -11,16 +11,13 @@ To authenticate a request on our API you need the following
 - Whitelisted IP Address
 
 If you are having trouble authenticating your IP address, visit [here](https://api.hackcheck.io/api/v2/ip) and make sure the IP you are entering on your [profile](https://hackcheck.io/profile) matches the IP you are shown.
-
 Once you've purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you'd like.
 
 ---
 ## /api/v2/lookup
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
-We currently limit responses to a maximum of 15,000 results, this is to ensure request time is reasonable and to prevent abuse.
 
----
 ## Queries
 Hackcheck currently offers six Queries.
 - Email Address `email`
@@ -30,27 +27,29 @@ Hackcheck currently offers six Queries.
 - Phone Number  `phone`
 - Domain Name   `domain`
 
+Response bodies are currently limited to 20,000 unique results.
 Keep in mind that some plans cannot use all of these queries, for more detail visit [plans](https://hackcheck.io/plans). 
 
 
 ## Response Handling
 Our API consists of two response bodies.
 #### Valid Response
-`
+```
 {
     "found": 0,
     "results": [],
     "elapsed": "1ms",
     "success": true
 }
-`
+```
 #### Error Response
-`
+```
 {
     "message": "error message",
     "success": false
 }
-`
+```
+
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
 ---
@@ -108,7 +107,9 @@ These two body structures make it easy for developers to parse our responses wit
 ---
 ## Regex
 Our API provides Regex support to help you find what you're looking.
+
 `*` - Represents zero or more characters.
+
 `_` - Represents a single character.
 
 If you want to use regex you need to enable the `regex` parameter like as seen below.
