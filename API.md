@@ -20,8 +20,9 @@ This endpoint is used to perform various queries against our database to get the
 
 We currently limit responses to a maximum of 15,000 results, this is to ensure request time is reasonable and to prevent abuse.
 
-## Queires
-Hackcheck currently offers six  queires.
+---
+## Queries
+Hackcheck currently offers six Queries.
 - Email Address `email`
 - Username      `username`
 - Password      `password`
@@ -29,9 +30,10 @@ Hackcheck currently offers six  queires.
 - Phone Number  `phone`
 - Domain Name   `domain`
 
-Keep in mind that some plans cannot use all of these queries. 
+Keep in mind that some plans cannot use all of these queries, for more detail visit [plans](https://hackcheck.io/plans). 
 
-### Response Handling
+
+## Response Handling
 Our API consists of two response bodies.
 #### Valid Response
 `
@@ -51,7 +53,8 @@ Our API consists of two response bodies.
 `
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
-### Breakdown
+---
+## Breakdown
 `found` - INT that represents the number of results that were found for your query.
 
 `results` - Array that contains all of the results found.
@@ -62,11 +65,13 @@ These two body structures make it easy for developers to parse our responses wit
 
 `message` - String that contains a message, this element is only returned if success is false.
 
-### Request Example
+---
+## Examples
+#### Request Example
 `GET https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&email=example@gmail.com`
 
-### Response Example
-`
+#### Response Example
+```
 {
     "found": 2,
     "results": [
@@ -98,41 +103,31 @@ These two body structures make it easy for developers to parse our responses wit
     "elapsed": "5ms",
     "success": true
 }
-`
+```
+
 ---
 ## Regex
-
 Our API provides Regex support to help you find what you're looking.
-
 `*` - Represents zero or more characters.
-
 `_` - Represents a single character.
 
 If you want to use regex you need to enable the `regex` parameter like as seen below.
+
 `https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&regex=true&email=example_@gmail.com`
 
-### Examples
-   
+#### Examples
 `Query:` example*@gmail.com
-
 `Response:` example@gmail.com, exampletexts@gmail.com, examplesalad@gmail.com, etc
 
 
 `Query:` example_@gmail.com
-
 `Response:` examples@gmail.com, example1@gmail.com, example2@gmail.com, etc
 
 ---
 ### Rate Limits
-
 A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. The rate limit you receive depends on the plan you purchase.
-
 If you want to have insight on your current rate limit you can use the following headers.
 
 ```hc-allowed-rate``` - This number represents the requests per second you are allowed to send using the current API key.
-
 ```hc-current-rate``` - This number represents the numbers of requests you've send in the last second.
 
-
-
-## More features are coming soon, stay updated!
