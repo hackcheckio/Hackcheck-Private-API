@@ -1,28 +1,26 @@
-### Endpoints
+# Endpoints
 **Base URL:** api.hackcheck.io
 * /api/v2/lookup - Perform query searches 
 
 ### Requirements
 Anybody who purchase a plan is allowed to use our on-site search functionality, however, only those who purchase a _developer_ plan have access to use our private API.
 
-### Authentication
-
+## Authentication
 To authenticate a request on our API you need the following
 - API Key
 - Whitelisted IP Address
 
 If you are having trouble authenticating your IP address, visit [here](https://api.hackcheck.io/api/v2/ip) and make sure the IP you are entering on your [profile](https://hackcheck.io/profile) matches the IP you are shown.
 
-
 Once you've purchase a developer plan you can navigate to your [profile](https://hackcheck.io/profile), there you will be able to copy your `API key` and authorize whichever IP address you'd like.
 
 ---
-### /api/v2/lookup
+## /api/v2/lookup
 This endpoint is used to perform various queries against our database to get the information you're looking for.
 
 We currently limit responses to a maximum of 15,000 results, this is to ensure request time is reasonable and to prevent abuse.
 
-#### Queires
+## Queires
 Hackcheck currently offers six  queires.
 - Email Address `email`
 - Username      `username`
@@ -36,24 +34,24 @@ Keep in mind that some plans cannot use all of these queries.
 ### Response Handling
 Our API consists of two response bodies.
 #### Valid Response
-```
+`
 {
     "found": 0,
     "results": [],
     "elapsed": "1ms",
     "success": true
 }
-```
+`
 #### Error Response
-```
+`
 {
     "message": "error message",
     "success": false
 }
-```
+`
 These two body structures make it easy for developers to parse our responses with efficiency and ease. 
 
-#### Breakdown
+### Breakdown
 `found` - INT that represents the number of results that were found for your query.
 
 `results` - Array that contains all of the results found.
@@ -64,11 +62,11 @@ These two body structures make it easy for developers to parse our responses wit
 
 `message` - String that contains a message, this element is only returned if success is false.
 
-#### Request Example
+### Request Example
 `GET https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&email=example@gmail.com`
 
-#### Response Example
-```
+### Response Example
+`
 {
     "found": 2,
     "results": [
@@ -100,9 +98,9 @@ These two body structures make it easy for developers to parse our responses wit
     "elapsed": "5ms",
     "success": true
 }
-```
+`
 ---
-### Regex
+## Regex
 
 Our API provides Regex support to help you find what you're looking.
 
@@ -113,7 +111,7 @@ Our API provides Regex support to help you find what you're looking.
 If you want to use regex you need to enable the `regex` parameter like as seen below.
 `https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&regex=true&email=example_@gmail.com`
 
-#### Examples
+### Examples
    
 `Query:` example*@gmail.com
 
