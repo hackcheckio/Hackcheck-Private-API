@@ -130,5 +130,6 @@ A rate limit is the allowed requests per second someone is allowed to send reque
 If you want to have insight on your current rate limit you can use the following headers.
 
 ```hc-allowed-rate``` - This number represents the requests per second you are allowed to send using the current API key.
+
 ```hc-current-rate``` - This number represents the numbers of requests you've send in the last second.
 
