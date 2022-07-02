@@ -105,26 +105,6 @@ These two body structures make it easy for developers to parse our responses wit
 ```
 
 ---
-## Regex
-Our API provides Regex support to help you find what you're looking.
-
-`*` - Represents zero or more characters.
-
-`_` - Represents a single character.
-
-If you want to use regex you need to enable the `regex` parameter like as seen below.
-
-`https://api.hackcheck.io/api/v2/lookup?key=0000000000000000000000&regex=true&email=example_@gmail.com`
-
-#### Examples
-`Query:` example*@gmail.com
-`Response:` example@gmail.com, exampletexts@gmail.com, examplesalad@gmail.com, etc
-
-
-`Query:` example_@gmail.com
-`Response:` examples@gmail.com, example1@gmail.com, example2@gmail.com, etc
-
----
 ### Rate Limits
 A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. The rate limit you receive depends on the plan you purchase.
 If you want to have insight on your current rate limit you can use the following headers.
