@@ -28,7 +28,7 @@ Hackcheck currently offers six Queries.
 - Domain Name   `domain`
 
 Response bodies are currently limited to 20,000 unique results.
-Keep in mind that some plans cannot use all of these queries, for more detail visit [plans](https://hackcheck.io/plans). 
+Keep in mind that some plans cannot use all of these queries, for more details visit [plans](https://hackcheck.io/plans). 
 
 
 ## Response Handling
