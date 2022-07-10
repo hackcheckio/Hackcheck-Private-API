@@ -11,4 +11,4 @@ One major difference is that we offer our API. The HackCheck API has been specif
 We do not provide any feature to download databases, neither do we plan to.
 
 # Is this service legal?
-When databases are breached, they eventually get leaked to the public. Therefore, being considered to be public domain. This means the data is owned by the public and is fully legal to use.
+When a website has a data breach, many times the data usually ends up getting leaked into the public, therefore being considered public domain. All information provided by HackCheck is all publically owned, therefore being considered fully legal to use. As a user of our services, you are still required to follow our [Terms of Services](https://hackcheck.io/TOS).
