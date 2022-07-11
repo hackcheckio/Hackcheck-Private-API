@@ -22,6 +22,7 @@ This endpoint is used to perform various queries against our database to get the
 Hackcheck currently offers six Queries.
 - Email Address `email`
 - Username      `username`
+- Full Name     `name`
 - Password      `password`
 - IP Address    `ip`
 - Phone Number  `phone`
@@ -112,4 +113,3 @@ If you want to have insight on your current rate limit you can use the following
 ```hc-allowed-rate``` - This number represents the requests per second you are allowed to send using the current API key.
 
 ```hc-current-rate``` - This number represents the numbers of requests you've send in the last second.
-
