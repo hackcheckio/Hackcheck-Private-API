@@ -1,14 +1,23 @@
-# Where does all of this data come from?
-All the data we return is collected from a broad range of sources. These sources include forums, dark parts of the internet, and security researchers. Our team constantly keeps an eye out for new breaches.
+# Where does Hackcheck get all of this data?
+We search and monitor multiple clear-web and dark-web forums where data breaches are commonly published. When new data is posted on any of these various sources our team quickly collects the contents of it and parses through it, then we import it to our database.
+
+# Is this legal?
+Hackcheck is in compliance with the laws of the jurisdictions we currently operate in. If you have any further concerns regarding the legality of our service we recommend that you contact an expert on law in the country you reside in. 
+
+# How can I get my data remove?
+If you've come across your data in our data breach collection and want it to be remove you can contact us via email at [support@hackcheck.io](mailto:support@hackcheck.io) and request removal of said data.
+
+# Does Hackcheck keep any logs?
+We make it a goal to deliver our product in the most secure way possible, Hackcheck doesnt make logs of any query you may perform on any of our platforms.
+
+# How is Hackcheck different?
+Hackcheck provides the ability to search through a ton of different fields while maintaining lightning fast response times. Most other services are a lot more limited on the searches that you can perform. Hackcheck also has more records than any other site and our collection of data is growing daily. Our API also makes it easy to integrate our service into your own security based project(s).
+
+# How do I gain access?
+You can gain access to our service by purchasing a plan [here](https://hackcheck.io/plans).
 
 # What payment methods do you accept?
-We currently accept many cryptocurrencies including Bitcoin (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Litecoin (LTC), USD Coin (USDC), and Dai. We plan to expand our payment methods in the future to include options such as credit and debit cards integrated with Stripe and PayPal.
+We currently accept many cryptocurrencies including Bitcoin (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Litecoin (LTC), USD Coin (USDC), and Dai. We plan to expand our payment methods in the future to include options such as credit and debit cards integrated with Stripe, and PayPal.
 
-# What's the difference between HackCheck and other similar services?
-One major difference is that we offer our API. The HackCheck API has been specifically designed by developers, for developers. It's never been so easy to parse the response returned. Our API also offers low rate-limit to allow for you to work fast and efficiently.
-
-# Am I able to download these databases from your service?
-We do not provide any feature to download databases, neither do we plan to.
-
-# Is this service legal?
-When a website has a data breach, many times the data usually ends up getting leaked into the public, therefore being considered public domain. All information provided by HackCheck is all publically owned, therefore being considered fully legal to use. As a user of our services, you are still required to follow our [Terms of Services](https://hackcheck.io/TOS).
+# I have more questions!
+If you still have questions regarding our service you can contact via email at [support@hackcheck.io](mailto:support@hackcheck.io).
