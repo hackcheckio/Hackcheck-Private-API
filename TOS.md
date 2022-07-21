@@ -1,6 +1,9 @@
 # Disclaimer
 By signing up for Hackcheck and using our services at hackcheck.io you are agreeing to the following Terms of Service. If you disagree with any of these terms are you excluded from any services provided by Hackcheck.
 
+# Usage
+Hackcheck's sole purpose is to provide users with a safe, secure, and easy way to check if their personal information has been in anyway leaked and or hacked. Hackcheck has zero intention to defraud.
+
 # Responsibilty
 Hackcheck is not liable for the actions you take with the provided information. Like stated in the _Disclaimer_ you are expected to follow our Terms of Service. In any case a user is not following our Terms of Service they assume full responsibility for their actions.
 
