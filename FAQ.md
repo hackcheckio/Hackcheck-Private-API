@@ -20,7 +20,7 @@ We currently allow anybody to use our search engine for free, however with this 
 We currently accept many cryptocurrencies including Bitcoin (BTC), Bitcoin Cash (BCH), Ethereum (ETH), Litecoin (LTC), USD Coin (USDC), and Dai. We plan to expand our payment methods in the future to include options such as credit and debit cards integrated with Stripe, and PayPal.
 
 # I am a law enforcement entity / government official, how can I work with you?
-Hackcheck is all about data analysis, if you are a law enforcement entity or government official you can contact us as [support@hackcheck.io](mailto:support@hackcheck.io). Our services will be provided to you for free, as well as any information that may assist.
+Hackcheck is all about data analysis, if you are a law enforcement entity or government official you can contact us as [support@hackcheck.io](mailto:support@hackcheck.io). Our services will be provided to you for free, as well as any additional information that may assist.
 
 # I have more questions!
 If you still have questions regarding our service you can contact via email at [support@hackcheck.io](mailto:support@hackcheck.io).
