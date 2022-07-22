@@ -28,7 +28,6 @@ Hackcheck currently offers six Queries.
 - Phone Number  `phone`
 - Domain Name   `domain`
 
-Response bodies are currently limited to 20,000 unique results.
 Keep in mind that some plans cannot use all of these queries, for more details visit [plans](https://hackcheck.io/plans). 
 
 
@@ -65,6 +64,7 @@ These two body structures make it easy for developers to parse our responses wit
 
 `message` - String that contains a message, this element is only returned if success is false.
 
+As of right now the `results` array is limited to 20,000 unique results, however the `found` integer will go beyond 20,000. This is to prevent abuse.
 ---
 ## Examples
 #### Request Example
@@ -108,7 +108,7 @@ These two body structures make it easy for developers to parse our responses wit
 ---
 ### Rate Limits
 A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. The rate limit you receive depends on the plan you purchase.
-If you want to have insight on your current rate limit you can use the following headers.
+If you want to have insight on your current rate limit you can use the following response headers.
 
 ```hc-allowed-rate``` - This number represents the requests per second you are allowed to send using the current API key.
 
