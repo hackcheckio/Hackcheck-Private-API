@@ -65,6 +65,7 @@ These two body structures make it easy for developers to parse our responses wit
 `message` - String that contains a message, this element is only returned if success is false.
 
 As of right now the `results` array is limited to 20,000 unique results, however the `found` integer will go beyond 20,000. This is to prevent abuse.
+
 ---
 ## Examples
 #### Request Example
