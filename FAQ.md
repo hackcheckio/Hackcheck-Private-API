@@ -11,7 +11,7 @@ If you've come across your data in our data breach collection and want it to be 
 We make it a goal to deliver our product in the most secure way possible, Hackcheck doesnt make logs of any query you may perform on any of our platforms.
 
 # How is Hackcheck different?
-Hackcheck provides the ability to search through a ton of different fields while maintaining lightning fast response times. Most other services are a lot more limited on the searches that you can perform. Hackcheck also has more records than any other site, and our collection of data is growing daily. Our API also makes it easy to integrate our service into your own security based project(s).
+Hackcheck provides the ability to search through a ton of different fields while maintaining lightning fast response times. Most other services are a lot more limited on the searches that you can perform. Hackcheck also has more records than any other site, and our collection of data is growing daily. Our [API](https://hackcheck.io/API) also makes it easy to integrate our service into your own security based project(s).
 
 # How do I gain access?
 We currently allow anybody to use our search engine for free, however with this you can only see the number of results for your search. If you’d like a more detailed response, you can purchase a plan [here](https://hackcheck.io/plans).
