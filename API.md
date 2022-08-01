@@ -108,6 +108,8 @@ As of right now the `results` array is limited to 20,000 unique results, however
 
 ---
 ### Rate Limits
+Warning: If you continuously request at a rate over 20 requests per seconds or more you will be blocked from our API for 1 minute.
+
 A rate limit is the allowed requests per second someone is allowed to send requests & receive a response to our API. The rate limit you receive depends on the plan you purchase.
 If you want to have insight on your current rate limit you can use the following response headers.
 
